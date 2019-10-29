@@ -1,0 +1,99 @@
+html,
+body,
+ol,
+ul,
+span,
+h1,
+h3,
+p {
+  padding: 0;
+  margin: 0;
+}
+ol,
+ul {
+  list-style: none;
+}
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #333;
+}
+.f-left {
+  float: left;
+}
+.f-right {
+  float: right;
+}
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.d-wrapper {
+  max-width: 640px;
+  min-width: 300px;
+  color: #333;
+  font-size: 14px;
+}
+.d-wrapper .d-header {
+  background: lightgray;
+  width: 100%;
+}
+.d-wrapper .d-header .d-header-box {
+  width: 100%;
+}
+.d-wrapper .d-header .d-header-box h3 {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+.d-contain {
+  padding: 0 25px;
+  margin-top: 10px;
+}
+.d-contain ul {
+  width: 100%;
+  position: relative;
+}
+.d-contain ul li {
+  width: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.d-contain ul li a {
+  display: block;
+  width: 100%;
+}
+.d-contain ul li a img {
+  width: 100px;
+}
+.d-contain ul li a p {
+  padding: 10px 8px;
+  box-shadow: 0 1px 2px #ccc;
+  font-size: 13px;
+  color: #666;
+}
+.d-loading {
+  width: 100%;
+  height: 800px;
+  position: absolute;
+}
+.d-loading .box {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.d-loading .box .icon {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url(../image/loading2.gif);
+  background-size: 38px;
+  margin: 20px auto;
+}
+/*# sourceMappingURL=./style.css.map */
